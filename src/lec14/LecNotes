@@ -1,0 +1,21 @@
+Basic Factory Pattern
+    - Used when direct construction of an object is complicated/harmful
+    - direct construction = using the "new" keyword.
+    Several differenct contexts when factory design is appropriate:
+    -Singleton: when there should only be one instance of a particular class in the whole system.
+    -Multiton: when there should only be one instance of an object associated w some identifying property.
+    -Dynamic subclass binding: when the specific subclass of an object can only be determined at the time that it is created.
+    -Complex construction:
+
+    -make the constructor private
+    -provide static class methods that construct new instances and return them
+        -these are "factories"
+
+    --Look at Lec14 slides for formal definition/uses
+   =================================================================================
+
+
+    - Static corresponds to the class/generalization/conglomeration of a class, not tied to the instances of the class.
+
+    - multiple classes (ie class a, class b, class c, etc) that can all interact with (call) the same class.
+        a,b,c can all add entries to the "log" class. this allows for different object types to interact with a single class the same way.
