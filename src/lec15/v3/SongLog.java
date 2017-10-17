@@ -34,12 +34,14 @@ public class SongLog {
 	
 	public Song getFirstSongPlayedAfter(Date d) {
 
+		//returned song is at diff memory address than original/expected... WRONG RETURN
 //		for (LoggedSong s : logged_song_list) {
 //			if (s.getDate().compareTo(d) > 0) {
 //				return s;
 //			}
 //		}
 
+		//wrapped song return is at same memory address as original/expected...
 		for (LoggedSong s : logged_song_list) {
 			if (s.getDate().compareTo(d) > 0) {
 				return s.getWrappedSong();
