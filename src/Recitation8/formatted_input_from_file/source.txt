@@ -1,0 +1,4 @@
+3
+Carrie Brownstein 89.5 100.0 82.1 91.5
+Corin Tucker 96.0 90.0 88.0 80.0
+Janet Weiss 73.5 88.8 75.0 81.3
